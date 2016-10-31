@@ -2,7 +2,7 @@
 buatTabel();
 
 // Inisiasi Awal Fungsi
-buatLingkaran(5,10,10);
+//buatLingkaran(5,10,10);
 //buatBresenham(10,10,150,150);
 //buatDDA(10,10,150,150);
 
@@ -56,8 +56,8 @@ $(document).ready(function(){
 function buatTabel(){
   var table = document.getElementById("tabel");
 
-  var baris = 25;
-  var kolom = 25;
+  var baris = 50;
+  var kolom = 50;
   for(var x = 0;x < baris;x++){
     var tr = document.createElement("tr");
     tr.setAttribute("class","pixel x");
